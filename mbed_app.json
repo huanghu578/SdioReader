@@ -1,0 +1,9 @@
+{
+	"artifact_name": "demo",
+    "target_overrides": {        
+        "NUCLEO-429ZI": {                      
+            "target.features_add": ["STORAGE"],            
+            "target.components_add": ["SD"]            
+        }
+    }
+}
